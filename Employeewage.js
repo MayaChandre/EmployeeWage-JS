@@ -1,5 +1,3 @@
-//  Calculate Employee Wage using switch case
-
 const IS_PART_TIME = 1;
 const IS_FULL_TIME = 2;
 const PART_TIME_HOURS = 4;
@@ -22,4 +20,5 @@ switch(empCheck) {
 }
 
 let empWage = empHrs * WAGE_PER_HOUR;
-console.log("Emp Wage: " + empWage)
+console.log("Emp Wage: " + empWage);
+
